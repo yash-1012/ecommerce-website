@@ -3,14 +3,14 @@ if(!isset($_SESSION['admin_email'])){
     echo "<script>window.open('login.php','_self')</script>";
 }
 ?>
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background: black">
     <div class="navbar-header"> <!-- navbar-header Start-->
         <button type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse" class="navbar-toggle">
             <span class="sr-only">Toggle Navigation</span>
             <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
         </button>
         <a href="index.php?dashboard" class="navbar-brand">Admin Panel</a>
     </div> <!-- navbar-header End-->
@@ -36,7 +36,7 @@ if(!isset($_SESSION['admin_email'])){
                 
                 <li>
                     <a href="index.php?view_customer">
-                        <i class="fa fa-fw-user"></i>  Customer
+                        <i class="fa fa-fw-users"></i>  Customer
                         <span class="badge"><?php echo $count_cust; ?></span>
 
                     </a>
@@ -86,7 +86,7 @@ if(!isset($_SESSION['admin_email'])){
                 <i class="fa fa-fw fa-table"></i> Product Categories <i class="fa fa-fw fa-caret-down"></i>
                 </a>
             
-                <ul id="product_cat" class="collapse"> <!-- Product Dropdown Start-->
+                <ul id="product_cat" class="collapse"> <!-- Product Categories Dropdown Start-->
                     <li>
                         <a href="index.php?insert_product_cat">Insert Product Categories</a>
                     </li>
@@ -101,7 +101,7 @@ if(!isset($_SESSION['admin_email'])){
                 <i class="fa fa-fw fa-table"></i> Categories <i class="fa fa-fw fa-caret-down"></i>
                 </a>
             
-                <ul id="categories" class="collapse"> <!-- Product Dropdown Start-->
+                <ul id="categories" class="collapse"> <!-- Categories Dropdown Start-->
                     <li>
                         <a href="index.php?insert_categories">Insert Categories</a>
                     </li>
@@ -140,7 +140,7 @@ if(!isset($_SESSION['admin_email'])){
             
             <li>
                 <a href="index.php?view_payments">
-                    <i class="fa fa-fw fa-pencil"></i> View ayments
+                    <i class="fa fa-fw fa-pencil"></i> View Payments
                 </a>
             </li>
 

@@ -128,14 +128,15 @@ include("functions/functions.php");
 							<span class="input-group-btn">
 								<button type="submit" value="Search" name="search" class="btn btn-primary">
 								<i class="fa fa-search"></i>
+								</button>
 							</span>
-							</button>
 						</div>
 					</form>
 				</div>
 			</div> <!-- Navbar-Collapse Collapse End -->
 		</div>
 	</div> <!-- Navbar Navbar-default End -->
+	
 	<div class="container" id="slider"> <!--Container Start--><br>
 		<div class="col-md-12">	<!-- col-md-12 start-->	
 			<div class="carousel slide" id="mycarousel">	<!--Carousel Slide Start -->

@@ -138,6 +138,8 @@ body{
 	border-color: rgb(65,179,156);
 }
 
+
+/* search box */
 #search .navbar-form{
 	float: right;
 }
